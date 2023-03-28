@@ -1,0 +1,52 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+/* Body */
+
+body {
+    background-color: rgb(51,51,51);
+}
+
+/* Top Navbar */
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(102,102,102);
+    border-bottom: solid 2px black;
+    gap: 20px;
+    padding: 20px 30px;
+}
+
+#nav-left {
+    font-size: 30px;
+}
+
+#nav-right {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    font-size: 20px;
+}
+
+#nav-right a {
+    text-decoration: none;
+}
+
+#nav-right a:hover{
+    color: orange;
+}
+
+.active {
+    color: orange;
+}
