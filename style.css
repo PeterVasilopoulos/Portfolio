@@ -26,6 +26,7 @@ body {
     border-bottom: solid 2px black;
     gap: 20px;
     padding: 20px 30px;
+    margin-bottom: 30px;
 }
 
 #nav-left {
@@ -49,4 +50,28 @@ body {
 
 .active {
     color: orange;
+}
+
+/* Main Content */
+
+#main-content {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+#title {
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+
+
+/* ------------ */
+/* Parkour Page */
+/* ------------ */
+
+.video {
+    border-bottom: 1px solid white;
+    padding: 50px 0;
 }
