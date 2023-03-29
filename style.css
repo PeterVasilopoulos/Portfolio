@@ -71,7 +71,24 @@ body {
 /* Parkour Page */
 /* ------------ */
 
+#social {
+    display: flex;
+    
+}
+
+.social-link a {
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.social-link img {
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .video {
     border-bottom: 1px solid white;
     padding: 50px 0;
 }
+
